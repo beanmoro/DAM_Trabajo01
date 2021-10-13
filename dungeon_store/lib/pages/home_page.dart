@@ -82,22 +82,26 @@ class HomePage extends StatelessWidget {
                       Container(
                         padding: EdgeInsets.only(right: 5),
                         child: Image(
-                            image: AssetImage('assets/imgs/gameplay1.jpg')),
+                            image: AssetImage(
+                                'assets/imgs/gameplay/gameplay1.jpg')),
                       ),
                       Container(
                         padding: EdgeInsets.only(right: 5),
                         child: Image(
-                            image: AssetImage('assets/imgs/gameplay5.jpg')),
+                            image: AssetImage(
+                                'assets/imgs/gameplay/gameplay5.jpg')),
                       ),
                       Container(
                         padding: EdgeInsets.only(right: 5),
                         child: Image(
-                            image: AssetImage('assets/imgs/gameplay3.jpg')),
+                            image: AssetImage(
+                                'assets/imgs/gameplay/gameplay3.jpg')),
                       ),
                       Container(
                         padding: EdgeInsets.only(right: 5),
                         child: Image(
-                            image: AssetImage('assets/imgs/gameplay4.jpg')),
+                            image: AssetImage(
+                                'assets/imgs/gameplay/gameplay4.jpg')),
                       ),
                     ],
                   ),

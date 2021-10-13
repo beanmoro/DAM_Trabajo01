@@ -166,9 +166,9 @@ class RazasPage extends StatelessWidget {
       body: Container(
         padding: EdgeInsets.all(10.0),
         margin: EdgeInsets.only(
-          left: 20.0,
+          left: 8.0,
           top: 2.0,
-          right: 20.0,
+          right: 8.0,
           bottom: 20.0,
         ),
         child: ListView(

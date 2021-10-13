@@ -25,7 +25,7 @@ class DrawerComponent extends StatelessWidget {
                       width: 50,
                       height: 50,
                       child: Image(
-                        image: AssetImage('assets/imgs/logo.png'),
+                        image: AssetImage('assets/imgs/logo_app.png'),
                       ),
                     ),
                     Spacer(),
@@ -45,7 +45,9 @@ class DrawerComponent extends StatelessWidget {
               tileColor: aColorPrimario,
               title: Text('Facciones'),
               leading: Icon(MdiIcons.flagVariant),
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, '/facciones');
+              },
             ),
             Container(child: Divider(), color: aColorPrimario),
             ListTile(
@@ -68,19 +70,14 @@ class DrawerComponent extends StatelessWidget {
             Container(child: Divider(), color: aColorPrimario),
             ListTile(
               tileColor: aColorPrimario,
-              title: Text('Zonas'),
-              leading: Icon(MdiIcons.signDirection),
-              onTap: () {},
-            ),
-            Container(child: Divider(), color: aColorPrimario),
-            ListTile(
-              tileColor: aColorPrimario,
               title: Text('Profesiones'),
               leading: Icon(MdiIcons.anvil),
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, '/profesiones');
+              },
             ),
             Container(child: Divider(), color: aColorPrimario),
-            Container(color: aColorPrimario, height: 260),
+            Container(color: aColorPrimario, height: 403),
           ],
         ),
       ),

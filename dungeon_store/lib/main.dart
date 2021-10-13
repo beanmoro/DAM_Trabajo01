@@ -1,6 +1,8 @@
 import 'package:dungeon_store/constants.dart';
 import 'package:dungeon_store/pages/clases_page.dart';
+import 'package:dungeon_store/pages/facciones_page.dart';
 import 'package:dungeon_store/pages/home_page.dart';
+import 'package:dungeon_store/pages/profesiones_page.dart';
 import 'package:dungeon_store/pages/razas_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'WoW Data',
       theme: ThemeData(
         primaryColor: aColorTerciario,
         fontFamily: aFuentePrincipalTexto,
@@ -39,6 +41,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         '/razas': (context) => RazasPage(),
         '/clases': (context) => ClasesPage(),
+        '/facciones': (context) => FaccionesPage(),
+        '/profesiones': (context) => ProfesionesPage(),
       },
       initialRoute: '/',
     );

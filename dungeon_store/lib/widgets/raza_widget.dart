@@ -41,7 +41,7 @@ class RazaWidget extends StatelessWidget {
               ),
               child: Image(
                   height: 45,
-                  image: AssetImage('assets/imgs/' + this.raza_icono)),
+                  image: AssetImage('assets/imgs/razas/' + this.raza_icono)),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 16.0),
@@ -62,7 +62,8 @@ class RazaWidget extends StatelessWidget {
               ),
               child: Image(
                   height: 45,
-                  image: AssetImage('assets/imgs/' + this.faccion_icono)),
+                  image: AssetImage(
+                      'assets/imgs/facciones/' + this.faccion_icono)),
             ),
           ],
         ),
@@ -86,44 +87,33 @@ class RazaWidget extends StatelessWidget {
                     fontSize: 20),
               ),
             ),
-            /*
-            'assets/imgs/class_warrior.png'
-            'assets/imgs/class_paladin.png'
-            'assets/imgs/class_hunter.png'
-            'assets/imgs/class_rogue.png'
-            'assets/imgs/class_priest.png'
-            'assets/imgs/class_deathknight.png'
-            'assets/imgs/class_mage.png'
-            'assets/imgs/class_warlock.png'
-            'assets/imgs/class_druid.png'
-            */
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase1),
+              image: AssetImage('assets/imgs/clases/' + clase1),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase2),
+              image: AssetImage('assets/imgs/clases/' + clase2),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase3),
+              image: AssetImage('assets/imgs/clases/' + clase3),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase4),
+              image: AssetImage('assets/imgs/clases/' + clase4),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase5),
+              image: AssetImage('assets/imgs/clases/' + clase5),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase6),
+              image: AssetImage('assets/imgs/clases/' + clase6),
             ),
             Image(
               height: 30,
-              image: AssetImage('assets/imgs/' + clase7),
+              image: AssetImage('assets/imgs/clases/' + clase7),
             ),
           ],
         ),

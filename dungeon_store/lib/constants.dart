@@ -7,4 +7,3 @@ const aColorCuaternario = Color(0xFF2D2424); //cafe oscuro
 
 const aFuenteAppBar = 'LifeCraft';
 const aFuentePrincipalTexto = 'Arial-Narrow';
-const aFuenteSecundariaTexto = 'Morpheus';

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dungeon_store">
    <application
-        android:label="WoW data"
+        android:label="WoW Data"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
